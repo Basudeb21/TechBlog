@@ -60,7 +60,7 @@
                         </div>
                     </form>
                     <div class="row">
-                        <small>Don't have an account? <a href="">Signup
+                        <small>Don't have an account? <a href="http://localhost:8080/TechBlog/signup.jsp">Signup
                                 now</a></small>
                     </div>
                 </div>

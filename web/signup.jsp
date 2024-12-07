@@ -82,7 +82,7 @@
                         </div>
                     </form>
                     <div class="row">
-                        <small>Already have an account? <a href="">Login
+                        <small>Already have an account? <a href="http://localhost:8080/TechBlog/login.jsp">Login
                                 now</a></small>
                     </div>
                 </div>
