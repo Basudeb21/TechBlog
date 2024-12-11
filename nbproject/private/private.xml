@@ -3,8 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/nav_bar.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/profile.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/nav_with_logout.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/src/java/com/tech/blog/servlets/LoginServlet.java</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/signup.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/src/java/com/tech/blog/servlets/RegisterServlet.java</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/src/java/com/tech/blog/dao/UserDao.java</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/error.jsp</file>
             <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/index.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/web/login.jsp</file>
+            <file>file:/D:/Code/Project_Web_JAVA/TechBlog/src/java/com/tech/blog/servlets/LogoutServlet.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,14 @@
+.blue-box {
+            height: 200px;
+            position: relative;
+        }
+
+.profile-image {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}

@@ -4,6 +4,7 @@
     Author     : Nil
 --%>
 
+<%@page import="com.tech.blog.entities.Message"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -20,6 +21,7 @@
     </head>
     <body>
         <%@include file = "nav_bar.jsp" %>
+      
         
         <div class="container d-flex justify-content-center align-items-center min-vh-100">
 
@@ -44,8 +46,24 @@
                 <div class="row align-items-center">
                     <div class="header-text mb-4">
                         <h2>Welcome, Back</h2>
+                        
+                        <%
+                            Message msg = (Message) session.getAttribute("msg");
+                            if (msg != null) {
+                        %>
+                        <div class="alert <%= msg.getCssClass() %>" role="alert">
+                        <%= msg.getContent() %>
+                        </div>
+                        <%
+                                session.removeAttribute("msg");
+                            }
+                        %>
+
+                        
+                        
                     </div>
-                    <form action="" method="post">
+                    
+                    <form action="LoginServlet" method="post">
                         <div class="input-group mb-3">
                             <input type="email" class="form-control form-control-lg bg-light fs-6"
                                 placeholder="Enter email id" name="email" required>
